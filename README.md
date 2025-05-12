@@ -49,6 +49,3 @@ Este site está disponível publicamente através do **GitHub Pages**. Você pod
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
-README.md
-
-Exibindo README.md…
