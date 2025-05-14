@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Projeto Portfólio" />
     <meta name="author" content="Generation Brasil" />
     <meta name="keywords" content="HTML, CSS, JavaScript" />
+
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <title>Meu Perfil</title>
   </head>
   <body>
 
     <header>
-      <div id="header_content">
+      <div id="header_content" class="flex">
 
         <div id="titulo">
           <h1>Carlos Henrique da Silva Barbosa</h1>
@@ -38,29 +43,29 @@
 
     <main>
 
-      <section id ="about">
+      <section id ="about" class="flex-start">
 
         <h2>Sobre o Carlos Henrique</h2>
 
-        <div id ="conteudo">
+        <div id ="conteudo" class="flex">
 
-          <img src ="https://ik.imagekit.io/8kaww3my1/WhatsApp%20Image%202025-02-09%20at%2015.53.28.jpeg?updatedAt=1747082552714"
+          <img class="img_profile" src ="https://ik.imagekit.io/8kaww3my1/WhatsApp%20Image%202025-02-09%20at%2015.53.28.jpeg?updatedAt=1747082552714"
           alt ="Foto do criador deste conteúdo"/>
 
           <article>
             <p>
-              Olá, me chamo Carlos Henrique, tenho 26 anos e sou estudante de Análise e Desenvolvimento de Sistemas
+              Olá, me chamo Carlos Henrique, tenho 26 anos, sou estudante de Análise e Desenvolvimento de Sistemas
               na UNIP e estou participando do Bootcamp da Generation Brasil!
             </p>
           </article>
         </div>
       </section>
 
-      <section id = "video">
+      <section id = "video" class="flex-start">
 
         <h2>Meu vídeo favorito:</h2>
 
-        <div id ="youtube">
+        <div id ="youtube" class="flex">
 
           <iframe
           width="560"
@@ -79,28 +84,25 @@
 
     </main>
 
-    <footer>
-      <section id="redes_sociais">
+    <footer class="flex">
 
-        <a href="">
-          <img src="assets/img/linkedin.svg" alt="LinkedIn"/>
-        </a>
+			<section id="redes_sociais">
 
-        <a href="">
-          <img src="assets/img/github.svg" alt="Github"/>
-        </a>
+				<a href="">
+					<img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/github.svg" alt="Github" class="social_icon"/>
+				</a>
+				<a href="">
+					<img src="assets/img/instagram.svg" alt="Instagram" class="social_icon"/>
+				</a>
 
-        <a href="">
-          <img src="assets/img/instagram.svg" alt="Instagram"/>
-        </a>
+			</section>
 
-      </section>
+			<h3>Feito com 💙 por Carlos Henrique - 2025</h3>
 
-      <h3>
-        Feito com 💙 por Carlos Henrique - 2025
-      </h3>
-
-    </footer>
+		</footer>
 
   </body>
 </html>
