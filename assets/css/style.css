@@ -148,7 +148,7 @@ footer{
     width: 320px;
 }
 
-.social_icon {
+.linkedin {
     width: 4rem;
     height: 4rem;
     filter: brightness(0) 
@@ -161,7 +161,55 @@ footer{
         contrast(87%);
 }
 
-.social_icon:hover {  
+.github {
+    width: 4rem;
+    height: 4rem;
+    filter: brightness(0) 
+        saturate(100%) 
+        invert(100%) 
+        sepia(0%) 
+        saturate(7457%) 
+        hue-rotate(23deg) 
+        brightness(95%) 
+        contrast(87%);
+}
+
+.instagram {
+    width: 4rem;
+    height: 4rem;
+    filter: brightness(0) 
+        saturate(100%) 
+        invert(100%) 
+        sepia(0%) 
+        saturate(7457%) 
+        hue-rotate(23deg) 
+        brightness(95%) 
+        contrast(87%);
+}
+
+.linkedin:hover {  
+    filter: brightness(0) 
+        saturate(100%) 
+        invert(65%) 
+        sepia(59%) 
+        saturate(2437%) 
+        hue-rotate(213deg) 
+        brightness(86%) 
+        contrast(88%);
+}
+
+.github:hover {  
+    filter: brightness(0) 
+        saturate(100%) 
+        invert(65%) 
+        sepia(59%) 
+        saturate(2437%) 
+        hue-rotate(213deg) 
+        brightness(86%) 
+        contrast(88%);
+}
+
+.instagram:hover {  
     filter: brightness(0) 
         saturate(100%) 
         invert(65%) 
