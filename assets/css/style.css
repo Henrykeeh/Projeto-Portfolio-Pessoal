@@ -119,6 +119,7 @@ p{
 
 .img_profile{
     width: 200px;
+    border-radius: 80%;
 }
  
 /* Estilização da Seção Video */
